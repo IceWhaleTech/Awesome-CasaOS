@@ -1,0 +1,33 @@
+body {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  }
+  .home-wrapper {
+    .banner-brand__wrapper {
+      .banner-brand__content {
+        max-width: 960px !important;
+        .title,
+        .description,
+        .tagline,
+        .btn-group {
+          text-align: center !important;
+        }
+        .social-links {
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+  
+  .navbar-container {
+    .site-brand {
+      align-items: end;
+    }
+  }
+  
+  .series-container {
+    width: 18rem !important;
+    .site-brand {
+      align-items: end;
+    }
+  }
+  
