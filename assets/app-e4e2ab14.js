@@ -8699,12 +8699,12 @@ const pagesData$1 = {
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-0309972c.js"
+    "./index.html-d82749cc.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-a0547860.js"
+    "./list.html-fb42ed6b.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8766,32 +8766,32 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-477d8451.js"
+    "./index.html-bbaeb7ff.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-300e5bf1.js"
+    "./index.html-4523b31c.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-b5cd2bda.js"
+    "./index.html-e6c6445c.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-9ad1cbbd.js"
+    "./index.html-5261e7f3.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-37451332.js"
+    "./list.html-7b80822e.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-9518e671.js"
+    "./404.html-c248172d.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -9004,7 +9004,7 @@ var withBase = (url) => {
     return url;
   return `${"/"}${removeLeadingSlash(url)}`;
 };
-const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"light","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"example","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list"]}]},"navbar":[]}');
+const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"dark","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"example","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list"]}]},"navbar":[]}');
 const themeData = ref(themeData$1);
 const useThemeData = () => themeData;
 const themeLocaleDataSymbol = Symbol("");
@@ -82176,7 +82176,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-91fcd289.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-633cd476.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {

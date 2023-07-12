@@ -1,4 +1,4 @@
-import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-e4d6cd16.js";
+import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-e4e2ab14.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createStaticVNode('<h2 id="_1-casaos-linuxserver-appstore" tabindex="-1"><a class="header-anchor" href="#_1-casaos-linuxserver-appstore" aria-hidden="true">#</a> 1. CasaOS-LinuxServer-AppStore</h2><p>A CasaOS custom Appstore containing over 100+ LinuxServer.io images.<br> Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://casaos-appstore.paodayag.dev/linuxserver.zip\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
 const _hoisted_4 = {
