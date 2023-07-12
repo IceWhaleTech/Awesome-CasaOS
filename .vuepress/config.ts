@@ -7,7 +7,7 @@ export default defineUserConfig({
   description: "Third-Party App Stores",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
-    colorMode: 'light',
+    colorMode: 'dark',
     primaryColor: '#43A7FF',
     logo: "/logo.png",
     author: "CasaOS",
