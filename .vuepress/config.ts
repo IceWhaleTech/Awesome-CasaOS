@@ -26,7 +26,8 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      
+      { text: 'CasaOS', link: 'https://casaos.io/'},
+      { text: 'Blog', link: 'https://blog.casaos.io/'},
     ],
     
     // commentConfig: {
