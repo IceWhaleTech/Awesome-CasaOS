@@ -24,6 +24,17 @@ https://github.com/Cp0204/CasaOS-AppStore-Play/archive/refs/heads/main.zip
 [GitHub Repo](https://github.com/Cp0204/CasaOS-AppStore-Play)
 
 
+## 3. CasaOS Coolstore
+
+Just an another CasaOS third-party Appstore with ❄Cool❄ apps. 
+Source link:
+
+``` bash
+https://casaos-appstore.paodayag.dev/coolstore.zip
+```
+[GitHub Repo](https://github.com/WisdomSky/CasaOS-Coolstore)
+
+
 ::: info
 Please note that CasaOS allows you to explore and install apps from these third-party app stores at your own discretion. It's important to exercise caution and review permissions and user reviews before installing any applications. CasaOS does not take responsibility for the content, security, or functionality of these third-party app stores or the apps available within them.
 :::
