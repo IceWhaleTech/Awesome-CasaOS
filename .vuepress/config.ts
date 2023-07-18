@@ -14,7 +14,7 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     docsRepo: "https://github.com/IceWhaleTech/Awesome-CasaOS",
     docsBranch: "main",
-    docsDir: "example",
+    docsDir: "",
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
