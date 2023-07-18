@@ -8699,12 +8699,12 @@ const pagesData$1 = {
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-fd75e482.js"
+    "./index.html-38d229e9.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-cae44256.js"
+    "./list.html-943ac7e8.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8766,32 +8766,32 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-39f3d8ae.js"
+    "./index.html-00f1abc1.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-24c562a0.js"
+    "./index.html-f9dcc338.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-5dfaed66.js"
+    "./index.html-2d9a053e.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-b2e31bfe.js"
+    "./index.html-7ba339f1.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-b3b7a29f.js"
+    "./list.html-d2e55918.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-70e08bda.js"
+    "./404.html-5091395d.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -9004,7 +9004,7 @@ var withBase = (url) => {
     return url;
   return `${"/"}${removeLeadingSlash(url)}`;
 };
-const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"dark","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"example","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list"]}]},"navbar":[{"text":"CasaOS","link":"https://casaos.io/"},{"text":"Blog","link":"https://blog.casaos.io/"}]}');
+const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"dark","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list"]}]},"navbar":[{"text":"CasaOS","link":"https://casaos.io/"},{"text":"Blog","link":"https://blog.casaos.io/"}]}');
 const themeData = ref(themeData$1);
 const useThemeData = () => themeData;
 const themeLocaleDataSymbol = Symbol("");
@@ -82190,7 +82190,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-952b60de.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-9a364cd6.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {

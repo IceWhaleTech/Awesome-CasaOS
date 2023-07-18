@@ -1,0 +1,4 @@
+const data = JSON.parse('{"key":"v-356b9548","path":"/content/3rd-party-app-stores/list.html","title":"Store list","lang":"en-US","frontmatter":{"title":"Store list"},"headers":[{"level":2,"title":"1. CasaOS-LinuxServer-AppStore","slug":"_1-casaos-linuxserver-appstore","link":"#_1-casaos-linuxserver-appstore","children":[]},{"level":2,"title":"2. CasaOS-AppStore-Play","slug":"_2-casaos-appstore-play","link":"#_2-casaos-appstore-play","children":[]},{"level":2,"title":"3. CasaOS-Coolstore","slug":"_3-casaos-coolstore","link":"#_3-casaos-coolstore","children":[]},{"level":2,"title":"4. CasaOS (Edge) AppStore","slug":"_4-casaos-edge-appstore","link":"#_4-casaos-edge-appstore","children":[]}],"git":{"createdTime":1689690801000,"updatedTime":1689690801000,"contributors":[{"name":"老竭力","email":"jerrykuku@qq.com","commits":1}]},"filePathRelative":"content/3rd-party-app-stores/list.md"}');
+export {
+  data
+};
