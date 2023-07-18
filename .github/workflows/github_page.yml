@@ -1,30 +1,24 @@
 name: Build and Deploy Awesome-CasaOS
-on:
-  push:
-    branches:
-      - main
+on: [push]
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@main
-      
-    - name: Install and Build 🔧 
+      uses: actions/checkout@v3
+
+    - name: Install and Build 🔧
       run: |
         yarn
         yarn build
 
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: .vuepress/dist
-        BASE_BRANCH: main
+        folder: .vuepress/dist
+
