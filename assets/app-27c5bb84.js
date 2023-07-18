@@ -8699,12 +8699,12 @@ const pagesData$1 = {
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-a6b449de.js"
+    "./index.html-fd75e482.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-2302b484.js"
+    "./list.html-cae44256.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8766,32 +8766,32 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-3ddab533.js"
+    "./index.html-39f3d8ae.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-bb5c0635.js"
+    "./index.html-24c562a0.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-f529693a.js"
+    "./index.html-5dfaed66.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-123e8849.js"
+    "./index.html-b2e31bfe.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-548e1f02.js"
+    "./list.html-b3b7a29f.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-cd5d29d4.js"
+    "./404.html-70e08bda.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -16242,6 +16242,20 @@ const searchIndex$1 = [
         "title": "2. CasaOS-AppStore-Play",
         "slug": "_2-casaos-appstore-play",
         "link": "#_2-casaos-appstore-play",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. CasaOS-Coolstore",
+        "slug": "_3-casaos-coolstore",
+        "link": "#_3-casaos-coolstore",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. CasaOS (Edge) AppStore",
+        "slug": "_4-casaos-edge-appstore",
+        "link": "#_4-casaos-edge-appstore",
         "children": []
       }
     ],
@@ -82176,7 +82190,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-9e89c447.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-952b60de.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {
