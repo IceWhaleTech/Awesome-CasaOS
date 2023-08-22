@@ -8696,15 +8696,20 @@ const pagesData$1 = {
     /* webpackChunkName: "v-53355ebb" */
     "./index.html-807230be.js"
   ), true ? [] : void 0).then(({ data }) => data),
+  // path: /CONTRIBUTING.html
+  "v-73005554": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-73005554" */
+    "./CONTRIBUTING.html-2f383155.js"
+  ), true ? [] : void 0).then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-48b66b3e.js"
+    "./index.html-1cb5c730.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-e815f3ba.js"
+    "./list.html-47ac29fc.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8766,32 +8771,37 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-943c0790.js"
+    "./index.html-4f9731ba.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-00d280dd.js"
+    "./index.html-34a15f70.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-c8f5a6c2.js"
+    "./index.html-c7882c1e.js"
+  ), true ? [] : void 0)),
+  // path: /CONTRIBUTING.html
+  "v-73005554": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-73005554" */
+    "./CONTRIBUTING.html-daca73f6.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-24fb2180.js"
+    "./index.html-3a569f8a.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-4aa61456.js"
+    "./list.html-a752a100.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-bac1e952.js"
+    "./404.html-c9ca953f.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -16217,6 +16227,13 @@ const searchIndex$1 = [
     "title": "",
     "headers": [],
     "path": "/friendship-link/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/CONTRIBUTING.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -81961,6 +81978,7 @@ const pagesRoutes = [
   ["v-01560935", "/timeline/", { "title": "" }, ["/timeline/index.html"]],
   ["v-e1e3da16", "/posts/", { "title": "" }, ["/posts/index.html"]],
   ["v-53355ebb", "/friendship-link/", { "title": "" }, ["/friendship-link/index.html"]],
+  ["v-73005554", "/CONTRIBUTING.html", { "title": "" }, ["/CONTRIBUTING", "/CONTRIBUTING.md"]],
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
   ["v-356b9548", "/content/3rd-party-app-stores/list.html", { "title": "Store list" }, ["/content/3rd-party-app-stores/list", "/content/3rd-party-app-stores/list.md"]],
   ["v-3706649a", "/404.html", { "title": "" }, ["/404"]]
@@ -82190,7 +82208,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-56f3ba1f.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-d6bb5926.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {
