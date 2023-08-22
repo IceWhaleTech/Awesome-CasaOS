@@ -43,6 +43,16 @@ https://paodayag.dev/casaos-appstore-edge.zip
 ```
 [GitHub Repo](https://github.com/WisdomSky/CasaOS-AppStore-Edge)
 
+## 5. CasaOS HomeAutomation AppStore
+
+ A CasaOS Appstore that contains some useful apps for home automation and other things.  
+Source link:
+
+``` bash
+https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore/archive/refs/tags/latest.zip
+```
+[GitHub Repo](https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore)
+
 
 ::: info
 Please note that CasaOS allows you to explore and install apps from these third-party app stores at your own discretion. It's important to exercise caution and review permissions and user reviews before installing any applications. CasaOS does not take responsibility for the content, security, or functionality of these third-party app stores or the apps available within them.
