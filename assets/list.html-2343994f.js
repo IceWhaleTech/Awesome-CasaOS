@@ -1,4 +1,4 @@
-import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-9a5145d9.js";
+import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-541e2d1d.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createStaticVNode('<h2 id="_1-casaos-linuxserver-appstore" tabindex="-1"><a class="header-anchor" href="#_1-casaos-linuxserver-appstore" aria-hidden="true">#</a> 1. CasaOS-LinuxServer-AppStore</h2><p>A CasaOS custom Appstore containing over 100+ LinuxServer.io images.<br> Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://casaos-appstore.paodayag.dev/linuxserver.zip\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
 const _hoisted_4 = {
@@ -24,7 +24,13 @@ const _hoisted_16 = {
   target: "_blank",
   rel: "noopener noreferrer"
 };
-const _hoisted_17 = /* @__PURE__ */ createBaseVNode(
+const _hoisted_17 = /* @__PURE__ */ createStaticVNode('<h2 id="_5-casaos-homeautomation-appstore" tabindex="-1"><a class="header-anchor" href="#_5-casaos-homeautomation-appstore" aria-hidden="true">#</a> 5. CasaOS HomeAutomation AppStore</h2><p>A CasaOS Appstore that contains some useful apps for home automation and other things.<br> Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore/archive/refs/tags/latest.zip\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
+const _hoisted_20 = {
+  href: "https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_21 = /* @__PURE__ */ createBaseVNode(
   "div",
   { class: "custom-container info" },
   [
@@ -86,7 +92,14 @@ function _sfc_render(_ctx, _cache) {
         createVNode(_component_ExternalLinkIcon)
       ])
     ]),
-    _hoisted_17
+    _hoisted_17,
+    createBaseVNode("p", null, [
+      createBaseVNode("a", _hoisted_20, [
+        createTextVNode("GitHub Repo"),
+        createVNode(_component_ExternalLinkIcon)
+      ])
+    ]),
+    _hoisted_21
   ]);
 }
 const list_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "list.html.vue"]]);
