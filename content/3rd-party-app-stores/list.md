@@ -53,6 +53,15 @@ https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore/archive/refs/tags/la
 ```
 [GitHub Repo](https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore)
 
+## 6. Big Bear CasaOS App Store
+
+This repository contains the Big Bear CasaOS App Store. This app store is a community app store that is not maintained by the CasaOS team. It is maintained by BigBearTechWorld and the BigBearCommunity.
+Source link:
+
+``` bash
+https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore/archive/refs/tags/latest.zip
+```
+[GitHub Repo](https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore)
 
 ::: info
 Please note that CasaOS allows you to explore and install apps from these third-party app stores at your own discretion. It's important to exercise caution and review permissions and user reviews before installing any applications. CasaOS does not take responsibility for the content, security, or functionality of these third-party app stores or the apps available within them.
