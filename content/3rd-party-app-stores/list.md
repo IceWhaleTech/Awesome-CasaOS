@@ -60,7 +60,6 @@ Source link:
 
 ``` bash
 https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zip
-)
 ```
 [GitHub Repo](https://github.com/bigbeartechworld/big-bear-casaos)
 
