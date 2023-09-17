@@ -1,4 +1,4 @@
-import { _ as _export_sfc, o as openBlock, c as createElementBlock, a as createBaseVNode } from "./app-f5135eab.js";
+import { _ as _export_sfc, o as openBlock, c as createElementBlock, a as createBaseVNode } from "./app-f0bf860b.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createBaseVNode(
   "p",
