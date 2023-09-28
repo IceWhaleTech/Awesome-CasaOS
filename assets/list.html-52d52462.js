@@ -1,4 +1,4 @@
-import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-f0bf860b.js";
+import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, e as createStaticVNode } from "./app-dff568fb.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createStaticVNode('<h2 id="_1-casaos-linuxserver-appstore" tabindex="-1"><a class="header-anchor" href="#_1-casaos-linuxserver-appstore" aria-hidden="true">#</a> 1. CasaOS-LinuxServer-AppStore</h2><p>A CasaOS custom Appstore containing over 100+ LinuxServer.io images.<br> Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://casaos-appstore.paodayag.dev/linuxserver.zip\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
 const _hoisted_4 = {
@@ -36,7 +36,13 @@ const _hoisted_24 = {
   target: "_blank",
   rel: "noopener noreferrer"
 };
-const _hoisted_25 = /* @__PURE__ */ createBaseVNode(
+const _hoisted_25 = /* @__PURE__ */ createStaticVNode('<h2 id="_7-tmc-community-app-store" tabindex="-1"><a class="header-anchor" href="#_7-tmc-community-app-store" aria-hidden="true">#</a> 7. TMC Community App Store</h2><p>It&#39;s important to note that this App Store is not managed by the CasaOS team. Instead, it is a delightful community-driven platform curated by TMC (mariosemes) and open to contributions from anyone who feels inspired to participate. So, dive in, explore, and discover the amazing array of applications available here! Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://github.com/mariosemes/CasaOS-TMCstore/archive/refs/heads/main.zip\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
+const _hoisted_28 = {
+  href: "https://github.com/mariosemes/CasaOS-TMCstore",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_29 = /* @__PURE__ */ createBaseVNode(
   "div",
   { class: "custom-container info" },
   [
@@ -112,7 +118,14 @@ function _sfc_render(_ctx, _cache) {
         createVNode(_component_ExternalLinkIcon)
       ])
     ]),
-    _hoisted_25
+    _hoisted_25,
+    createBaseVNode("p", null, [
+      createBaseVNode("a", _hoisted_28, [
+        createTextVNode("GitHub Repo"),
+        createVNode(_component_ExternalLinkIcon)
+      ])
+    ]),
+    _hoisted_29
   ]);
 }
 const list_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "list.html.vue"]]);
