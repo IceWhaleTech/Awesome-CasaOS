@@ -8699,17 +8699,17 @@ const pagesData$1 = {
   // path: /CONTRIBUTING.html
   "v-73005554": () => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-c67c435e.js"
+    "./CONTRIBUTING.html-06b7dbba.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-d58a14cb.js"
+    "./index.html-32fd0d31.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-dc13254a.js"
+    "./list.html-95f40294.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8771,37 +8771,37 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-beef7981.js"
+    "./index.html-73a91521.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-32048d09.js"
+    "./index.html-9e5dfa27.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-ea39c6cd.js"
+    "./index.html-03220a22.js"
   ), true ? [] : void 0)),
   // path: /CONTRIBUTING.html
   "v-73005554": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-25ce80e9.js"
+    "./CONTRIBUTING.html-1f0e9527.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-14fc92c7.js"
+    "./index.html-8019fe4f.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-52d52462.js"
+    "./list.html-dbdd9f27.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-f639bb38.js"
+    "./404.html-51aeb87a.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -16294,6 +16294,13 @@ const searchIndex$1 = [
         "title": "7. TMC Community App Store",
         "slug": "_7-tmc-community-app-store",
         "link": "#_7-tmc-community-app-store",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. CasaOS Pentest-Docker AppStore",
+        "slug": "_8-casaos-pentest-docker-appstore",
+        "link": "#_8-casaos-pentest-docker-appstore",
         "children": []
       }
     ],
@@ -82229,7 +82236,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-84aca632.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-37717cb7.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {

@@ -1,4 +1,4 @@
-import { _ as _export_sfc, o as openBlock, c as createElementBlock } from "./app-dff568fb.js";
+import { _ as _export_sfc, o as openBlock, c as createElementBlock } from "./app-2f2fca58.js";
 const _sfc_main = {};
 function _sfc_render(_ctx, _cache) {
   return openBlock(), createElementBlock("div");
