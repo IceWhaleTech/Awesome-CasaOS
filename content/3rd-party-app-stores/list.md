@@ -77,4 +77,12 @@ https://github.com/mariosemes/CasaOS-TMCstore/archive/refs/heads/main.zip
 Please note that CasaOS allows you to explore and install apps from these third-party app stores at your own discretion. It's important to exercise caution and review permissions and user reviews before installing any applications. CasaOS does not take responsibility for the content, security, or functionality of these third-party app stores or the apps available within them.
 :::
 
+## 8. CasaOS Pentest-Docker AppStore
 
+Pentest-Docker is a CasaOS third-party Appstore with Pentest-Tools apps.
+
+Source link:
+``` bash
+https://github.com/arch3rPro/Pentest-Docker/archive/refs/heads/master.zip
+```
+[GitHub Repo](https://github.com/arch3rPro/Pentest-Docker)
