@@ -19,7 +19,7 @@ https://casaos-appstore.paodayag.dev/linuxserver.zip
 
 ## 2. CasaOS-AppStore-Play
 
-A not-so-serious CasaOS App Store. Mainly local Chinese applications, such as Xunlei(迅雷), Qinglong(青龙), VerySync(微力同步). Using the `:latest` tag.  
+A not-so-serious CasaOS App Store. Mainly local Chinese applications, such as Thunder(迅雷), Qinglong(青龙), VerySync(微力同步). Using the `:latest` tag.  
 Source link:
 
 ``` bash
