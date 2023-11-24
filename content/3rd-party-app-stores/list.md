@@ -25,6 +25,12 @@ Source link:
 ``` bash
 https://play.cuse.eu.org/Cp0204-AppStore-Play.zip
 ```
+
+Rpi2, OneCloud, and other armv7 device-specific sources. / 树莓派2、玩客云等 armv7 设备专用源。  
+Source link:
+``` bash
+https://play.cuse.eu.org/Cp0204-AppStore-Play-arm.zip
+```
 [GitHub Repo](https://github.com/Cp0204/CasaOS-AppStore-Play)
 
 ## 3. CasaOS-Coolstore
