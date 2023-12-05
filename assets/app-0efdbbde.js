@@ -8699,17 +8699,22 @@ const pagesData$1 = {
   // path: /CONTRIBUTING.html
   "v-73005554": () => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-dd67d761.js"
+    "./CONTRIBUTING.html-e533cfdb.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-76dc5d39.js"
+    "./index.html-3e7f390a.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
+  "v-390c68f6": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-390c68f6" */
+    "./create-your-first-custom-appstore.html-189ca12b.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-dbf72973.js"
+    "./list.html-efbf914a.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8771,37 +8776,42 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-d99a79c9.js"
+    "./index.html-fcc95069.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-bbd96b7c.js"
+    "./index.html-52d1fb22.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-057ba21a.js"
+    "./index.html-4f8847f7.js"
   ), true ? [] : void 0)),
   // path: /CONTRIBUTING.html
   "v-73005554": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-94ef1923.js"
+    "./CONTRIBUTING.html-355b097e.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-cd55463f.js"
+    "./index.html-98748e36.js"
+  ), true ? [] : void 0)),
+  // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
+  "v-390c68f6": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-390c68f6" */
+    "./create-your-first-custom-appstore.html-12c9bd39.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-44a27f68.js"
+    "./list.html-5bba316b.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-6f6c230f.js"
+    "./404.html-5204cfc2.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -9014,7 +9024,7 @@ var withBase = (url) => {
     return url;
   return `${"/"}${removeLeadingSlash(url)}`;
 };
-const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"dark","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list"]}]},"navbar":[{"text":"CasaOS","link":"https://casaos.io/"},{"text":"Blog","link":"https://blog.casaos.io/"}]}');
+const themeData$1 = JSON.parse('{"style":"@vuepress-reco/style-default","colorMode":"dark","primaryColor":"#43A7FF","logo":"/logo.png","author":"CasaOS","authorAvatar":"/head.png","docsRepo":"https://github.com/IceWhaleTech/Awesome-CasaOS","docsBranch":"main","docsDir":"","lastUpdatedText":"","series":{"/content/3rd-party-app-stores/":[{"text":"Third-Party App Stores","children":["list","create-your-first-custom-appstore"]}]},"navbar":[{"text":"CasaOS","link":"https://casaos.io/"},{"text":"Blog","link":"https://blog.casaos.io/"}]}');
 const themeData = ref(themeData$1);
 const useThemeData = () => themeData;
 const themeLocaleDataSymbol = Symbol("");
@@ -16245,7 +16255,58 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "Store list",
+    "title": "Create your first custom AppStore for CasaOS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Prerequisites",
+        "slug": "prerequisites",
+        "link": "#prerequisites",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Steps",
+        "slug": "steps",
+        "link": "#steps",
+        "children": [
+          {
+            "level": 3,
+            "title": "Step 1 - Fork an AppStore",
+            "slug": "step-1-fork-an-appstore",
+            "link": "#step-1-fork-an-appstore",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Step 2 - Cleanup the forked repository",
+            "slug": "step-2-cleanup-the-forked-repository",
+            "link": "#step-2-cleanup-the-forked-repository",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Step 3 - Add the first app",
+            "slug": "step-3-add-the-first-app",
+            "link": "#step-3-add-the-first-app",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Step 4 - Test the AppStore",
+            "slug": "step-4-test-the-appstore",
+            "link": "#step-4-test-the-appstore",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/content/3rd-party-app-stores/create-your-first-custom-appstore.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Awesome Store list",
     "headers": [
       {
         "level": 2,
@@ -82008,7 +82069,8 @@ const pagesRoutes = [
   ["v-53355ebb", "/friendship-link/", { "title": "" }, ["/friendship-link/index.html"]],
   ["v-73005554", "/CONTRIBUTING.html", { "title": "" }, ["/CONTRIBUTING", "/CONTRIBUTING.md"]],
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
-  ["v-356b9548", "/content/3rd-party-app-stores/list.html", { "title": "Store list" }, ["/content/3rd-party-app-stores/list", "/content/3rd-party-app-stores/list.md"]],
+  ["v-390c68f6", "/content/3rd-party-app-stores/create-your-first-custom-appstore.html", { "title": "Create your first custom AppStore for CasaOS" }, ["/content/3rd-party-app-stores/create-your-first-custom-appstore", "/content/3rd-party-app-stores/create-your-first-custom-appstore.md"]],
+  ["v-356b9548", "/content/3rd-party-app-stores/list.html", { "title": "Awesome Store list" }, ["/content/3rd-party-app-stores/list", "/content/3rd-party-app-stores/list.md"]],
   ["v-3706649a", "/404.html", { "title": "" }, ["/404"]]
 ];
 var Vuepress = defineComponent({
@@ -82236,7 +82298,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-57c1be73.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-f677b904.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {
@@ -82262,7 +82324,8 @@ export {
   createElementBlock as c,
   createVueApp,
   createVNode as d,
-  createStaticVNode as e,
+  withCtx as e,
+  createStaticVNode as f,
   openBlock as o,
   resolveComponent as r,
   setupDevtoolsPlugin as s,
