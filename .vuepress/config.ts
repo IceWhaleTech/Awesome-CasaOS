@@ -21,7 +21,7 @@ export default defineUserConfig({
       "/content/3rd-party-app-stores/": [
         {
           text: "Third-Party App Stores",
-          children: ["list"],
+          children: ["list","create-your-first-custom-appstore"],
         },
       ],
     },

@@ -1,5 +1,5 @@
 ---
-title: Store list
+title: Awesome Store list
 ---
 
 ::: info
