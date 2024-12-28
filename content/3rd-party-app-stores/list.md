@@ -92,3 +92,13 @@ Source link:
 https://github.com/arch3rPro/Pentest-Docker/archive/refs/heads/master.zip
 ```
 [GitHub Repo](https://github.com/arch3rPro/Pentest-Docker)
+
+## 9. JSDs Generative AI Workbench CasaOS AppStore
+
+The Foundry Workbench is a CasaOS third-party Appstore and offers a collection of apps and tools, ready-to-use solution for fellow digital artisans and studios who want to concept, design, develop, create and publish beautiful and functional digital projects and services. Don't let the ZimaOS name within the repository confuse you, the AI Workbench works perfectly on CasaOS aslong as you have the GPUs to support it!
+Source link:
+
+``` bash
+https://github.com/justserdar/ZimaOS-AppStore/releases/tag/latest-v0.0.4
+```
+[GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
