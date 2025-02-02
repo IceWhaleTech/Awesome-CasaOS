@@ -92,3 +92,13 @@ Source link:
 https://github.com/arch3rPro/Pentest-Docker/archive/refs/heads/master.zip
 ```
 [GitHub Repo](https://github.com/arch3rPro/Pentest-Docker)
+
+## 9. Casa7014 App Store  
+
+A CasaOS third-party Appstore with a selection of useful applications.  
+Source link:
+
+``` bash
+https://yassinletaief.tn/casa7014/casa7014.zip
+```
+[GitHub Repo](https://github.com/yassinyl/casa7014)
