@@ -8699,22 +8699,22 @@ const pagesData$1 = {
   // path: /CONTRIBUTING.html
   "v-73005554": () => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-e533cfdb.js"
+    "./CONTRIBUTING.html-3137716c.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-3e7f390a.js"
+    "./index.html-8610836f.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
   "v-390c68f6": () => __vitePreload(() => import(
     /* webpackChunkName: "v-390c68f6" */
-    "./create-your-first-custom-appstore.html-189ca12b.js"
+    "./create-your-first-custom-appstore.html-07237886.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-efbf914a.js"
+    "./list.html-096b6c30.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8776,42 +8776,42 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-fcc95069.js"
+    "./index.html-0426383a.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-52d1fb22.js"
+    "./index.html-027ef565.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-4f8847f7.js"
+    "./index.html-3b096f9c.js"
   ), true ? [] : void 0)),
   // path: /CONTRIBUTING.html
   "v-73005554": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-355b097e.js"
+    "./CONTRIBUTING.html-c0b6d06a.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-98748e36.js"
+    "./index.html-f4f6028e.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
   "v-390c68f6": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-390c68f6" */
-    "./create-your-first-custom-appstore.html-12c9bd39.js"
+    "./create-your-first-custom-appstore.html-6439e020.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-5bba316b.js"
+    "./list.html-6d5e6841.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-5204cfc2.js"
+    "./404.html-e29eaa21.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -16362,6 +16362,13 @@ const searchIndex$1 = [
         "title": "8. CasaOS Pentest-Docker AppStore",
         "slug": "_8-casaos-pentest-docker-appstore",
         "link": "#_8-casaos-pentest-docker-appstore",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. JSDs Generative AI Workbench CasaOS AppStore",
+        "slug": "_9-jsds-generative-ai-workbench-casaos-appstore",
+        "link": "#_9-jsds-generative-ai-workbench-casaos-appstore",
         "children": []
       }
     ],
@@ -82298,7 +82305,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-f677b904.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-61840c9c.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {

@@ -1,4 +1,4 @@
-import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, f as createStaticVNode } from "./app-0efdbbde.js";
+import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createTextVNode, d as createVNode, f as createStaticVNode } from "./app-4ae65108.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createBaseVNode(
   "div",
@@ -79,6 +79,12 @@ const _hoisted_35 = {
   target: "_blank",
   rel: "noopener noreferrer"
 };
+const _hoisted_36 = /* @__PURE__ */ createStaticVNode('<h2 id="_9-jsds-generative-ai-workbench-casaos-appstore" tabindex="-1"><a class="header-anchor" href="#_9-jsds-generative-ai-workbench-casaos-appstore" aria-hidden="true">#</a> 9. JSDs Generative AI Workbench CasaOS AppStore</h2><p>The Foundry Workbench is a CasaOS third-party Appstore and offers a collection of apps and tools, ready-to-use solution for fellow digital artisans and studios who want to concept, design, develop, create and publish beautiful and functional digital projects and services. Don&#39;t let the ZimaOS name within the repository confuse you, the AI Workbench works perfectly on CasaOS aslong as you have the GPUs to support it! Source link:</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>https://github.com/justserdar/ZimaOS-AppStore/releases/tag/latest-v0.0.4\n</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>', 3);
+const _hoisted_39 = {
+  href: "https://github.com/justserdar/ZimaOS-AppStore",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
 function _sfc_render(_ctx, _cache) {
   const _component_ExternalLinkIcon = resolveComponent("ExternalLinkIcon");
   return openBlock(), createElementBlock("div", null, [
@@ -135,6 +141,13 @@ function _sfc_render(_ctx, _cache) {
     _hoisted_32,
     createBaseVNode("p", null, [
       createBaseVNode("a", _hoisted_35, [
+        createTextVNode("GitHub Repo"),
+        createVNode(_component_ExternalLinkIcon)
+      ])
+    ]),
+    _hoisted_36,
+    createBaseVNode("p", null, [
+      createBaseVNode("a", _hoisted_39, [
         createTextVNode("GitHub Repo"),
         createVNode(_component_ExternalLinkIcon)
       ])
