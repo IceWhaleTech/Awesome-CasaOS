@@ -99,6 +99,6 @@ The Foundry Workbench is a CasaOS third-party Appstore and offers a collection o
 Source link:
 
 ``` bash
-https://github.com/justserdar/ZimaOS-AppStore/releases/tag/latest-v0.0.4
+https://github.com/justserdar/ZimaOS-AppStore/archive/refs/tags/latest-v0.0.8.zip
 ```
 [GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
