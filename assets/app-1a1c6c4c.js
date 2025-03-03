@@ -8699,22 +8699,22 @@ const pagesData$1 = {
   // path: /CONTRIBUTING.html
   "v-73005554": () => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-3137716c.js"
+    "./CONTRIBUTING.html-75c2aafb.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-8610836f.js"
+    "./index.html-e9fce2e0.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
   "v-390c68f6": () => __vitePreload(() => import(
     /* webpackChunkName: "v-390c68f6" */
-    "./create-your-first-custom-appstore.html-07237886.js"
+    "./create-your-first-custom-appstore.html-77055f15.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": () => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-096b6c30.js"
+    "./list.html-4a83e2d0.js"
   ), true ? [] : void 0).then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => __vitePreload(() => import(
@@ -8776,42 +8776,42 @@ const pagesComponents = {
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-01560935" */
-    "./index.html-0426383a.js"
+    "./index.html-89146766.js"
   ), true ? [] : void 0)),
   // path: /posts/
   "v-e1e3da16": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e1e3da16" */
-    "./index.html-027ef565.js"
+    "./index.html-364bf17f.js"
   ), true ? [] : void 0)),
   // path: /friendship-link/
   "v-53355ebb": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-53355ebb" */
-    "./index.html-3b096f9c.js"
+    "./index.html-a380ac72.js"
   ), true ? [] : void 0)),
   // path: /CONTRIBUTING.html
   "v-73005554": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-73005554" */
-    "./CONTRIBUTING.html-c0b6d06a.js"
+    "./CONTRIBUTING.html-fc335c9e.js"
   ), true ? [] : void 0)),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html-f4f6028e.js"
+    "./index.html-eb6ff0d9.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/create-your-first-custom-appstore.html
   "v-390c68f6": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-390c68f6" */
-    "./create-your-first-custom-appstore.html-6439e020.js"
+    "./create-your-first-custom-appstore.html-b6e688b8.js"
   ), true ? [] : void 0)),
   // path: /content/3rd-party-app-stores/list.html
   "v-356b9548": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-356b9548" */
-    "./list.html-6d5e6841.js"
+    "./list.html-a8786a7b.js"
   ), true ? [] : void 0)),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html-e29eaa21.js"
+    "./404.html-40b03b94.js"
   ), true ? [] : void 0))
 };
 var layoutsSymbol = Symbol(
@@ -82305,7 +82305,7 @@ var createVueApp = async () => {
   setupGlobalComponents(app);
   const globalComputed = setupGlobalComputed(app, router, clientConfigs);
   {
-    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-61840c9c.js"), true ? [] : void 0);
+    const { setupDevtools } = await __vitePreload(() => import("./setupDevtools-X4YFRK4B-1274fd92.js"), true ? [] : void 0);
     setupDevtools(app, globalComputed);
   }
   for (const clientConfig of clientConfigs) {
