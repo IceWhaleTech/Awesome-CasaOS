@@ -102,3 +102,13 @@ Source link:
 https://github.com/justserdar/ZimaOS-AppStore/archive/refs/tags/latest-v0.0.8.zip
 ```
 [GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
+
+## 10. Casa7014 App Store  
+
+A CasaOS third-party Appstore with a selection of useful applications.  
+Source link:
+
+``` bash
+https://yassinletaief.tn/casa7014/casa7014.zip
+```
+[GitHub Repo](https://github.com/yassinyl/casa7014)
