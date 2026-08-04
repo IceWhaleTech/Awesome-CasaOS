@@ -102,3 +102,13 @@ Source link:
 https://github.com/justserdar/ZimaOS-AppStore/archive/refs/tags/latest-v0.0.8.zip
 ```
 [GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
+
+## 10. MyNeS Store
+
+MyNeS (My Network Scanner) is a self-hosted LAN scanner and device inventory. It discovers devices over ARP, mDNS/Bonjour, SSDP/UPnP, Matter, Bluetooth LE and MQTT, so the Zigbee and Z-Wave devices that have no IP address - and are therefore invisible to an IP scan - are inventoried alongside your servers and phones. Vendor lookup over a 1000+ entry OUI database, topology and graph views, scan history, alerts on new or missing devices, and two-way Home Assistant integration. English and Turkish, amd64 and arm64.
+Source link:
+
+``` bash
+https://cdn.jsdelivr.net/gh/fxerkan/mynes-casaos-store@gh-pages/store/main.zip
+```
+[GitHub Repo](https://github.com/fxerkan/mynes-casaos-store)
