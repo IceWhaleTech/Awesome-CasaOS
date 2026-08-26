@@ -102,3 +102,13 @@ Source link:
 https://github.com/justserdar/ZimaOS-AppStore/archive/refs/tags/latest-v0.0.8.zip
 ```
 [GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
+
+## 10. Louis (Yoto MYO)
+
+Louis is a Make Your Own (MYO) client for Yoto: search YouTube, arrange playlists, and save them to your Yoto account. v2 store built from [stuartromanek/louis](https://github.com/stuartromanek/louis) `deploy/casaos/`.
+Source link:
+
+``` bash
+https://cdn.jsdelivr.net/gh/stuartromanek/louis@gh-pages/store.json
+```
+[GitHub Repo](https://github.com/stuartromanek/louis)
