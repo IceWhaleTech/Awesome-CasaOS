@@ -102,3 +102,14 @@ Source link:
 https://github.com/justserdar/ZimaOS-AppStore/archive/refs/tags/latest-v0.0.8.zip
 ```
 [GitHub Repo](https://github.com/justserdar/ZimaOS-AppStore)
+
+## 10. OpenFamily App Store
+
+A community app store maintained by NexaFlow, currently providing OpenFamily, an open-source, self-hosted family organizer with a shared calendar, tasks, shopping lists, meal planning and budget tracking.
+
+Source link:
+
+``` bash
+https://github.com/NexaFlowFrance/casaos-appstore/archive/refs/heads/main.zip
+```
+[GitHub Repo](https://github.com/NexaFlowFrance/casaos-appstore)
