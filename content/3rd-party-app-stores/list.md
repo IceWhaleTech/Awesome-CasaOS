@@ -63,17 +63,7 @@ https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore/archive/refs/tags/la
 ```
 [GitHub Repo](https://github.com/mr-manuel/CasaOS-HomeAutomation-AppStore)
 
-## 6. Big Bear CasaOS App Store
-
- This repository contains the Big Bear CasaOS App Store. This app store is a community app store that is not maintained by the CasaOS team. It is maintained by BigBearTechWorld and the BigBearCommunity.  
-Source link:
-
-``` bash
-https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zip
-```
-[GitHub Repo](https://github.com/bigbeartechworld/big-bear-casaos)
-
-## 7. TMC Community App Store
+## 6. TMC Community App Store
 
  It's important to note that this App Store is not managed by the CasaOS team. Instead, it is a delightful community-driven platform curated by TMC (mariosemes) and open to contributions from anyone who feels inspired to participate. So, dive in, explore, and discover the amazing array of applications available here!  
 Source link:
@@ -83,7 +73,7 @@ https://github.com/mariosemes/CasaOS-TMCstore/archive/refs/heads/main.zip
 ```
 [GitHub Repo](https://github.com/mariosemes/CasaOS-TMCstore)
 
-## 8. CasaOS Pentest-Docker AppStore
+## 7. CasaOS Pentest-Docker AppStore
 
 Pentest-Docker is a CasaOS third-party Appstore with Pentest-Tools apps.  
 Source link:
@@ -93,7 +83,7 @@ https://github.com/arch3rPro/Pentest-Docker/archive/refs/heads/master.zip
 ```
 [GitHub Repo](https://github.com/arch3rPro/Pentest-Docker)
 
-## 9. JSDs Generative AI Workbench CasaOS AppStore
+## 8. JSDs Generative AI Workbench CasaOS AppStore
 
 The Foundry Workbench is a CasaOS third-party Appstore and offers a collection of apps and tools, ready-to-use solution for fellow digital artisans and studios who want to concept, design, develop, create and publish beautiful and functional digital projects and services. Don't let the ZimaOS name within the repository confuse you, the AI Workbench works perfectly on CasaOS aslong as you have the GPUs to support it!
 Source link:
